@@ -23,7 +23,11 @@ html, body {
 	text-decoration: none;
 }
 
-.jumbotron {
+.header .container li a:hover {
+	color: #244E8B;
+}
+
+.main.home .jumbotron {
 	background: image-url('cover.jpg') no-repeat center center fixed;
 	background-size: cover;
 	height: 425px;
@@ -33,30 +37,37 @@ html, body {
 	margin-top: 25px
 }
 
-.jumbotron h2 {
+.main.home .jumbotron h2 {
 	margin-top: 50px;
 	font-size: 55px;
 	text-align: right;
 }
 
-span {
+.main.home span {
 	color: #244E8B;
 	background-color: white;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.main .btn {
+.main.home .btn {
 	font-size: 20px;
 	background: black;
 	border-radius: 0px;
 }
 
-.main a {
+.main.home a {
 	color: white;
 	text-decoration: none;
 }
 
-.main a:hover {
+.main.home a:hover {
 	color: #2A508F;
 }
+
+.banner { position: relative; overflow: auto; }
+.banner ul { padding: 0; list-style: none; }
+.banner ul li { float: left; }
+.banner img { width: 100%; }
+
+
