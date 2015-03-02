@@ -19,4 +19,4 @@ var main = function() {
 	$('.banner').unslider();
 }
 
-$(document).ready(main);
+$(window).load(main);
