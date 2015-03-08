@@ -7,6 +7,11 @@ html, body {
 	color: black;
 }
 
+em {
+	font-weight: bold;
+	background-color: yellow;
+}
+
 .header .container {
 	margin-top: 50px;
 	font-size: 18px;
@@ -34,7 +39,7 @@ html, body {
 	width: 100%;
 	background-position: 0px -50px;
 	color: white;
-	margin-top: 25px
+	margin-top: 50px
 }
 
 .main.home .jumbotron h2 {
@@ -65,9 +70,53 @@ html, body {
 	color: #2A508F;
 }
 
-.banner { position: relative; overflow: auto; }
-.banner ul { padding: 0; list-style: none; }
-.banner ul li { float: left; }
-.banner img { width: 100%; height: auto; }
+.banner { 
+	position: relative; overflow: auto; 
+}
 
+.banner ul { 
+	padding: 0; list-style: none; 
+}
 
+.banner ul li { 
+	float: left;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.banner img { 
+	width: 100%; 
+	height: auto;
+}
+
+.footer .socialmedia li {
+	display: inline-block;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.footer .socialmedia li a {
+	display: block;
+	height: 24px;
+	width: 24px;
+}
+
+.github {
+background-image: url(https://warm-anchorage-7911.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
+background-position: no-repeat center center fixed;
+}
+
+.linkedin {
+background-image: url(https://warm-anchorage-7911.herokuapp.com/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);
+background-position: center center;
+}
+
+.twitter {
+background-image: url(https://warm-anchorage-7911.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+background-position: center center;
+}
+
+.footer a {
+	background-color: transparent;
+	text-decoration: none;
+}
